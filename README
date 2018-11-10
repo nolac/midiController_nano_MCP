@@ -1,0 +1,19 @@
+A simple pad controller on Arduino Nano with MCP23017 for butons input (easier than a matrix)
+Schematics for electronic is on the repo
+
+the pad contains 16 "pad buttons" sending notes on/of from 60 to 82(on 2 pages)
+
+under the pad are 4 "function buttons" :
+the left is the "page change" buttons , switching between the 2 pages
+the 3 other buttons are "controll change" buttons (CC20,21,22)
+  sending control change with value of 127 OR 0
+  
+  
+This pad was created for control the amazing seq24 on linux.
+It works with TTYmidi (Linux) plugged in jack over a2jmidid
+
+I'll write a "protocol" page to explain how it works... but it's sooooo easy
+
+
+for the 4x4 pad , nano reads the MCP GPIOAB sending a uint16_t word
+access to "buton position" is done by masking => less memory used (and less work for arduino)
