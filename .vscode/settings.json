@@ -1,0 +1,6 @@
+{
+    "terminal.integrated.env.osx": {
+        "PATH": "/Users/nico/.platformio/penv/bin:/Users/nico/.platformio/penv:/Users/nico/.rvm/gems/ruby-2.5.0/bin:/Users/nico/.rvm/gems/ruby-2.5.0@global/bin:/Users/nico/.rvm/rubies/ruby-2.5.0/bin:/Library/Frameworks/Python.framework/Versions/3.7/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Users/nico/.rvm/bin",
+        "PLATFORMIO_CALLER": "vscode"
+    }
+}
